@@ -10,7 +10,7 @@
 <BorderPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">
 
     <top>
-        <Label text="Super Advanced Permutations Generator" BorderPane.alignment="CENTER">
+        <Label text="Permutations Generator" BorderPane.alignment="CENTER">
             <font>
                 <Font name="Times New Roman bold italic" size="23"/>
             </font>
@@ -25,10 +25,9 @@
             <padding>
                 <Insets left="10" top="25"/>
             </padding>
-            <Label GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="3" text="Generate permutations from 1 to: "/>
-            <TextField fx:id="numberTextField" GridPane.rowIndex="1" GridPane.columnIndex="0" maxWidth="50" onKeyReleased="#handleKeyReleased"/>
-            <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text=""/>
-            <Button fx:id="generateButton" text="Generate!" GridPane.rowIndex="3" GridPane.columnIndex="1" onAction="#onButtonClicked"/>
+            <Label GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="3" text="Generate permutations of a given string:"/>
+            <TextField GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="3" fx:id="numberTextField" onKeyReleased="#handleKeyReleased"/>
+            <Button GridPane.rowIndex="3" GridPane.columnIndex="0" fx:id="generateButton" text="Generate!" onAction="#onButtonClicked"/>
             <Label GridPane.rowIndex="4" GridPane.columnIndex="0"/>
             <Label GridPane.rowIndex="7" GridPane.columnIndex="0" GridPane.columnSpan="3" text="Number of generated permutations: "/>
             <Label GridPane.rowIndex="8" GridPane.columnIndex="0" fx:id="permutationsNumber"/>

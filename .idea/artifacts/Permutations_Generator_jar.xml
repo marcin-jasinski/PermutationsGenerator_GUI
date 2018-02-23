@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Permutations_Generator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Permutations_Generator_jar</output-path>
+    <root id="archive" name="Permutations_Generator.jar">
+      <element id="module-output" name="Permutations_Generator" />
+    </root>
+  </artifact>
+</component>
