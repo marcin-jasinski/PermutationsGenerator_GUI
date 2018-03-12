@@ -1,5 +1,4 @@
 # PermutationsGenerator_GUI
 
 A simple permutations generator using an iterative algorithm.
-WARNING! Do not input Strings longer than 7 characters. Because of JavaFX UI Thread protection I used Platform.runLater() to update the GUI while the main computations are running, but due to O(n!) complexity it must be called thousands of times. 
-This issue should be solved later. 
+WARNING! Do not input Strings longer than 7 characters. Because of JavaFX UI Thread protection I used Platform.runLater() to update the GUI while the main computations are running.
